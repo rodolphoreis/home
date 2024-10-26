@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const quickSand = Quicksand({ subsets: ["latin"] });
 
@@ -17,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-PT">
+      <Head>
+        <link rel="icon" href="src/app/favicon.ico" />
+      </Head>
       <body className={quickSand.className}>{children}</body>
     </html>
   );
