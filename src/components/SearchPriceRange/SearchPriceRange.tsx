@@ -1,10 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { useState } from "react";
 import { GrFormDown, GrTag, GrFormUp } from "react-icons/gr";
 
 export function SearchPriceRange() {
-    const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
-    return (
-        <p>Search price Range</p>
-    )
+  return <p>Search price Range</p>;
 }
