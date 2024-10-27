@@ -12,7 +12,9 @@ export function SearchProperty() {
       <GrHome />
       <div>
         <p>Propriedade</p>
-        <p className="text-xs">Selecione o tipo da propriedade</p>
+        <p className="hidden md:block text-xs">
+          Selecione o tipo da propriedade
+        </p>
       </div>
       {isOpen ? <GrFormUp /> : <GrFormDown />}
 

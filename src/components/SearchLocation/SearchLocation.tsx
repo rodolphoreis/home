@@ -12,7 +12,7 @@ export function SearchLocation() {
       <GrLocation />
       <div>
         <p>Localização</p>
-        <p className="text-xs">Selecione sua Localização</p>
+        <p className="hidden md:block text-xs">Selecione sua Localização</p>
       </div>
       {isOpen ? <GrFormUp /> : <GrFormDown />}
 

@@ -12,7 +12,7 @@ export function SearchPriceRange() {
       <GrTag />
       <div>
         <p>Margem de preço</p>
-        <p className="text-xs">Selecione sua margem de preço</p>
+        <p className="hidden md:block text-xs">Selecione sua margem de preço</p>
       </div>
       {isOpen ? <GrFormUp /> : <GrFormDown />}
 
