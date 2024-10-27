@@ -2,11 +2,11 @@ export const dataProperties = [
   {
     id: 1,
     location: "Porto, Portugal",
-    price: 200000,
+    price: 500000,
     bedrooms: 3,
-    bathroom: 1,
+    bathroom: 3,
     image: "propertie1.jpeg",
-    star: 4.5,
+    star: 4.9,
     meters: 430,
     description:
       "No coração da encantadora cidade do Porto, uma oportunidade única para adquirir um espetacular apartamento de 75 metros quadrados, combinando conforto, elegância e um ambiente natural inigualável. Esta moradia, situada numa zona tranquila e bem servida, é um refúgio de paz e beleza que certamente o encantará. Ao entrar neste acolhedor lar, será recebido por um hall que o conduz a uma casa de banho completa com banheira, ideal para relaxar após um longo dia. Um espaçoso salão se funde com a cozinha através de portas deslizantes.",
@@ -26,7 +26,7 @@ export const dataProperties = [
   {
     id: 3,
     location: "Braga, Portugal",
-    price: 35000,
+    price: 350000,
     bedrooms: 5,
     bathroom: 2,
     image: "propertie3.jpg",
@@ -50,7 +50,7 @@ export const dataProperties = [
   {
     id: 5,
     location: "Coimbra, Portugal",
-    price: 200000,
+    price: 600000,
     bedrooms: 3,
     bathroom: 1,
     image: "propertie5.jpg",
@@ -98,7 +98,7 @@ export const dataProperties = [
   {
     id: 9,
     location: "Guimarães, Portugal",
-    price: 200000,
+    price: 120000,
     bedrooms: 3,
     bathroom: 1,
     image: "propertie9.jpeg",
@@ -110,7 +110,7 @@ export const dataProperties = [
   {
     id: 10,
     location: "Viana do Castelo, Portugal",
-    price: 200000,
+    price: 210000,
     bedrooms: 3,
     bathroom: 1,
     image: "propertie10.jpg",
@@ -122,7 +122,7 @@ export const dataProperties = [
   {
     id: 11,
     location: "Cascais, Portugal",
-    price: 200000,
+    price: 980000,
     bedrooms: 3,
     bathroom: 1,
     image: "propertie11.jpg",
@@ -134,7 +134,7 @@ export const dataProperties = [
   {
     id: 12,
     location: "Portimão, Portugal",
-    price: 200000,
+    price: 310000,
     bedrooms: 3,
     bathroom: 1,
     image: "propertie12.jpeg",
@@ -170,7 +170,7 @@ export const dataProperties = [
   {
     id: 15,
     location: "Setúbal, Portugal",
-    price: 200000,
+    price: 500000,
     bedrooms: 3,
     bathroom: 1,
     image: "propertie15.jpeg",
@@ -182,7 +182,7 @@ export const dataProperties = [
   {
     id: 16,
     location: "Chaves, Portugal",
-    price: 200000,
+    price: 100000,
     bedrooms: 3,
     bathroom: 1,
     image: "propertie16.jpeg",
