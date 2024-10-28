@@ -33,7 +33,7 @@ export function MarkerHouse(props: MarkerHouseProps) {
           alt={name}
           width={100}
           height={400}
-          className="w-full h-full object-cover md:h-[180px] rounded-lg"
+          className="w-full object-cover md:h-[180px] rounded-lg"
         />
 
         <button className="px-3 py-2 text-xs text-white rounded-lg bg-secondary mt-3 w-full">
