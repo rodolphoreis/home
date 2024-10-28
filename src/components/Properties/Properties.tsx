@@ -73,9 +73,7 @@ export function Properties() {
         )}
       </div>
       <div className="text-center my-7">
-        {dataFilteredHouses.length === 16 ? (
-          <p className="text-sm mt-5 ">Todos os imóveis estão aqui!</p>
-        ) : (
+        {counterHouses < dataProperties.length && (
           <button
             className="px-6 py-4 text-white font-extrabold transition-all duration-150 cursor-pointer bg-secondary rounded-xl hover:bg-black"
             onClick={() => setCounterHouses((prev) => prev + 4)}
