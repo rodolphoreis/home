@@ -2,7 +2,7 @@ export const housesData = [
   {
     id: 1,
     name: "Porto",
-    image: "house1.jpg",
+    image: "propertie1.jpeg",
     position: {
       lat: 41.14961,
       lng: -8.61099,
@@ -10,8 +10,8 @@ export const housesData = [
   },
   {
     id: 2,
-    name: "Lisbon Center",
-    image: "house2.jpg",
+    name: "Lisboa",
+    image: "propertie2.jpeg",
     position: {
       lat: 38.72225,
       lng: -9.13914,
@@ -19,62 +19,125 @@ export const housesData = [
   },
   {
     id: 3,
-    name: "Alentejo (Beach)",
-    image: "house3.jpg",
+    name: "Braga",
+    image: "propertie3.jpg",
     position: {
-      lat: 38.2825,
-      lng: -8.5578,
+      lat: 41.54541,
+      lng: -8.42651,
     },
   },
   {
     id: 4,
-    name: "Espinho (Beach)",
-    image: "house4.jpg",
+    name: "Faro",
+    image: "propertie4.webp",
     position: {
-      lat: 40.63414,
-      lng: -8.64662,
+      lat: 37.01837,
+      lng: -7.93044,
     },
   },
   {
     id: 5,
-    name: "Algarve (Praia de Benagil)",
-    image: "house5.jpg",
+    name: "Coimbra",
+    image: "propertie5.jpg",
     position: {
-      lat: 37.0983,
-      lng: -8.4157,
+      lat: 40.20332,
+      lng: -8.41026,
     },
   },
   {
     id: 6,
-    name: "Gaia (Porto)",
-    image: "house6.jpg",
+    name: "Aveiro",
+    image: "propertie6.jpg",
     position: {
-      lat: 41.12455,
-      lng: -8.61104,
+      lat: 40.64006,
+      lng: -8.64554,
     },
   },
   {
     id: 7,
-    name: "Guimarães (City Center)",
-    image: "house7.jpg",
+    name: "Sintra",
+    image: "propertie7.jpg",
+    position: {
+      lat: 38.80292,
+      lng: -9.38189,
+    },
+  },
+  {
+    id: 8,
+    name: "Évora",
+    image: "propertie8.jpeg",
+    position: {
+      lat: 38.57299,
+      lng: -7.91365,
+    },
+  },
+  {
+    id: 9,
+    name: "Guimarães",
+    image: "propertie9.jpeg",
     position: {
       lat: 41.44745,
       lng: -8.61102,
     },
   },
   {
-    id: 8,
-    name: "Guimarães (Campo da Feira)",
-    image: "house8.jpg",
+    id: 10,
+    name: "Viana do Castelo",
+    image: "propertie10.jpg",
     position: {
-      lat: 41.44079,
-      lng: -8.61033,
+      lat: 41.69416,
+      lng: -8.83857,
     },
   },
   {
-    id: 9,
+    id: 11,
+    name: "Cascais",
+    image: "propertie11.jpg",
+    position: {
+      lat: 38.69764,
+      lng: -9.42157,
+    },
+  },
+  {
+    id: 12,
+    name: "Portimão",
+    image: "propertie12.jpeg",
+    position: {
+      lat: 37.13744,
+      lng: -8.53729,
+    },
+  },
+  {
+    id: 13,
+    name: "Lagos",
+    image: "propertie13.jpg",
+    position: {
+      lat: 37.10267,
+      lng: -8.67452,
+    },
+  },
+  {
+    id: 14,
+    name: "Albufeira",
+    image: "propertie14.jpg",
+    position: {
+      lat: 37.09789,
+      lng: -8.24925,
+    },
+  },
+  {
+    id: 15,
+    name: "Setúbal",
+    image: "propertie15.jpeg",
+    position: {
+      lat: 38.52443,
+      lng: -8.89293,
+    },
+  },
+  {
+    id: 16,
     name: "Chaves",
-    image: "house9.jpg",
+    image: "propertie16.jpeg",
     position: {
       lat: 41.73734,
       lng: -7.46603,
