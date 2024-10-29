@@ -18,3 +18,7 @@ html {
 .leaflet-popup-tip {
   border-radius: 0.5rem;
 }
+
+p {
+  @apply leading-8;
+}
