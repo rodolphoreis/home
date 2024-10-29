@@ -19,7 +19,7 @@ export function Location() {
   };
 
   return (
-    <Transition className="px-4 py-8 md:px-36 md:py-44">
+    <Transition className="px-4 py-8 md:px-36 md:py-24 ">
       <h4 className="text-center text-secondary" id="location">
         Localização
       </h4>
