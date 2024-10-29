@@ -6,7 +6,7 @@ import { Slider } from "./Slider";
 export function Services() {
   return (
     <Transition className="grid px-4 py-8 md:py-46 md:px-36 md:grid-cols-2 md:gap-28">
-      <div className="max-w-xl mb-7">
+      <div className="max-w-xl mb-7" id="services">
         <h4 className="text-secondary md:text-xl">Serviços</h4>
         <h2 className="my-4 text-3xl font-semibold">
           Promova a sua casa para alugar ou vender ao melhor preço
