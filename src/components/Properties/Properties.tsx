@@ -18,7 +18,7 @@ export function Properties() {
   const dataFilteredHouses = dataProperties.slice(0, counterHouses);
   return (
     <Transition className="px-4 py-8 md:py-32 md:px-40">
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4" id="properties">
         {dataFilteredHouses.map(
           ({
             id,
