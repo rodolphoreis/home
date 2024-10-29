@@ -72,7 +72,7 @@ export function Properties() {
           )
         )}
       </div>
-      <div className="text-center my-7 mt-20">
+      <div className="text-center my-7 mt-10">
         {counterHouses < dataProperties.length && (
           <button
             className="px-6 py-4 text-white font-extrabold transition-all duration-150 cursor-pointer bg-secondary rounded-xl hover:bg-black"
