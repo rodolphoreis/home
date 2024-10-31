@@ -14,11 +14,12 @@ export default function Page() {
   const filteredPage = dataProperties.find(
     (property) => property.id === Number(propertyId)
   );
+
   return (
     <>
       <TransitionPage />
       <Header />
-      {filteredPage ? <Property /> : <Error404 />}
+      {filteredPage ? <Property house={filteredPage} /> : <Error404 />}
       <Footer />
     </>
   );
