@@ -1,5 +1,5 @@
 export type PropertyProps = {
-  houses: {
+  house: {
     id: number;
     price: number;
     location: string;
