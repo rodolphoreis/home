@@ -8,6 +8,7 @@ import { Properties } from "@/components/Properties";
 import { Services } from "@/components/Services";
 import { TransitionPage } from "@/components/TransitionPage";
 import dynamic from "next/dynamic";
+import { PropertiesProvider } from "../../context/FilterContext";
 
 const LocationMap = dynamic(
   () => import("../components/Location").then((module) => module.Location),
@@ -19,19 +20,21 @@ const LocationMap = dynamic(
 export default function Home() {
   return (
     <>
-      <TransitionPage />
-      <Header />
-      <main>
-        <Banner />
-        <Properties />
-        <div className="max-w-6xl mx-auto">
-          <Services />
-          <LocationMap />
-          <About />
-        </div>
-        <JoinCommunity />
-        <Footer />
-      </main>
+      <PropertiesProvider>
+        <TransitionPage />
+        <Header />
+        <main>
+          <Banner />
+          <Properties />
+          <div className="max-w-6xl mx-auto">
+            <Services />
+            <LocationMap />
+            <About />
+          </div>
+          <JoinCommunity />
+          <Footer />
+        </main>
+      </PropertiesProvider>
     </>
   );
 }
