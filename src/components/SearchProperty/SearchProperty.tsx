@@ -17,7 +17,7 @@ export function SearchProperty() {
       className="relative mb-2 md:mb-0 flex items-center gap-4 border-[1px] rounded-lg px-3 py-2 justify-between curssor-pointer"
       onClick={() => setIsOpen((prev) => !prev)}
     >
-      <FaRegStar size={20} />
+      <FaRegStar />
       <div>
         <p>Classificação</p>
         <p className="hidden md:block text-xs">Selecione pelas estrelas</p>
