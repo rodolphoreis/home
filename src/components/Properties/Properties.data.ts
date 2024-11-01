@@ -102,7 +102,7 @@ export const dataProperties = [
     bedrooms: 3,
     bathroom: 1,
     image: "propertie9.jpeg",
-    star: 4.5,
+    star: 2,
     meters: 380,
     description:
       "Em Guimarães, berço de Portugal, esta propriedade de 380 metros quadrados é ideal para quem aprecia um estilo de vida confortável com um toque de história. Possui uma sala ampla conectada com a cozinha, proporcionando um espaço agradável para a convivência.",
